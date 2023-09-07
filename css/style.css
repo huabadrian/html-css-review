@@ -1,6 +1,5 @@
 html {
     box-sizing: border-box;
-    font-family: "Wix Madefor Display", sans-serif;
     background-color: #000000;
   }
   
@@ -17,4 +16,12 @@ body {
 .wrapper {
     max-width: 1200px;
     margin: 0%;
+}
+
+image {
+    filter: grayscale();
+}
+
+h2 {
+    font-family: "Wix Madefor Display", sans-serif;
 }
