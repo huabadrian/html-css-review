@@ -1,10 +1,11 @@
 html {
     box-sizing: border-box;
-    font-family: nunito;
+    font-family: "Wix Madefor Display", sans-serif;
     line-height: 1.5;
-    background-color: #000000;
+    background-color: #ffffff;
   }
   
-  *, *::before, *::after {
+*, *::before, *::after {
     box-sizing: inherit;
   }
+
