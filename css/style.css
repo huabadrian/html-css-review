@@ -1,8 +1,8 @@
 html {
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: nunito;
     line-height: 1.5;
-    background-color: #3eea0f;
+    background-color: #000000;
   }
   
   *, *::before, *::after {
