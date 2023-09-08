@@ -32,6 +32,16 @@ ol {
     align-items: center;
 }
 
+.banner {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "banner";
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  
+
 .banner img {
   grid-area: banner;
   width: 100%;
