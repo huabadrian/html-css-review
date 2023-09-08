@@ -12,18 +12,18 @@ ol {
 }
 
 .nav ol {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    display: flex;
-    align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
 }
-  
+
 .nav a {
-    color: #fff;
-    padding: .5em;
-    border-radius: 1em;
-    text-decoration: none;
+  color: #fff;
+  padding: .5em;
+  border-radius: 1em;
+  text-decoration: none;
 }
 
 .masthead {
@@ -33,17 +33,17 @@ ol {
 }
 
 .banner img {
-    grid-area: banner;
-    width: 100%;
-  }
+  grid-area: banner;
+  width: 100%;
+}
 
 .banner div {
-    grid-area: banner;
-    align-self: center;
-    justify-self: center;
-    padding: 2rem 0;
-    max-width: 20em;
-    text-align: center;
+  grid-area: banner;
+  align-self: center;
+  justify-self: center;
+  padding: 2rem 0;
+  max-width: 20em;
+  text-align: center;
 }
 
 body {
@@ -57,7 +57,7 @@ body {
     margin: 0%;
 }
 
-.profile img {
+img {
     filter: grayscale();
 }
 
