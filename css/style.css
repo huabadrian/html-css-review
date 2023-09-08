@@ -92,3 +92,15 @@ h2 {
     font-family: "Wix Madefor Display", sans-serif;
     font-size: 2rem;
 }
+
+footer {
+    color: #fff;
+    font-size: .875rem;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  footer * {
+    margin: 0;
+  }
+  
