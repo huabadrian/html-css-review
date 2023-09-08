@@ -57,7 +57,7 @@ body {
     margin: 0%;
 }
 
-img {
+.profile img {
     filter: grayscale();
 }
 
