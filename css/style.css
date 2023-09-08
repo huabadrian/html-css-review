@@ -57,7 +57,11 @@ ol {
 }
 
 span {
-    font-size: 10rem;
+    font-size: 100rem;
+}
+
+.welcome {
+    background-color: #7055A4;
 }
 
 body {
