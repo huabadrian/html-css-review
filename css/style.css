@@ -52,6 +52,11 @@ body {
     filter: grayscale();
 }
 
+span {
+    font-family: "Wix Madefor Display", sans-serif;
+    font-size: 2rem;
+}
+
 h2 {
     font-family: "Wix Madefor Display", sans-serif;
     font-size: 2rem;
