@@ -37,6 +37,15 @@ ol {
     width: 100%;
   }
 
+.banner div {
+    grid-area: banner;
+    align-self: center;
+    justify-self: center;
+    padding: 2rem 0;
+    max-width: 20em;
+    text-align: center;
+}
+
 body {
     line-height: 1.5;
     font-family: "Nunito";
