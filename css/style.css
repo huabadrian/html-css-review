@@ -1,11 +1,17 @@
 html {
     box-sizing: border-box;
     background-color: #000000;
-  }
+}
   
 *, *::before, *::after {
     box-sizing: inherit;
-  }
+}
+
+.masthead {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 body {
     line-height: 1.5;
@@ -18,7 +24,7 @@ body {
     margin: 0%;
 }
 
-image {
+img {
     filter: grayscale();
 }
 
