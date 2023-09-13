@@ -72,7 +72,7 @@ h4 {
   text-align: center;
 }
 
-.profile p {
+.profile li p {
   text-align: center;
 }
 
@@ -93,7 +93,10 @@ body {
 }
 
 .profile img {
-    filter: grayscale();
+  filter: grayscale();
+  text-align: center;
+  display: grid;
+  place-items: center;
 }
 
 span {
