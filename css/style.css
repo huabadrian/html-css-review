@@ -44,6 +44,11 @@ ol {
 
 .banner img {
   grid-area: banner;
+  width: 100%;
+}
+
+span {
+  font-size: 100rem;
 }
 
 .banner div {
@@ -51,12 +56,7 @@ ol {
   align-self: center;
   justify-self: center;
   padding: 2rem 0;
-  max-width: 20em;
   text-align: center;
-}
-
-span {
-    font-size: 100rem;
 }
 
 .welcome {
