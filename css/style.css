@@ -68,6 +68,14 @@ h4 {
     background-color: #7055A4;
 }
 
+.profile h3 {
+  text-align: center;
+}
+
+.profile p {
+  text-align: center;
+}
+
 body {
     line-height: 1.5;
     font-family: "Nunito";
