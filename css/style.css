@@ -79,6 +79,11 @@ body {
     margin: 0%;
 }
 
+.wrapper p {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
 .profile img {
     filter: grayscale();
 }
