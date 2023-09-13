@@ -93,6 +93,18 @@ h2 {
     font-size: 2rem;
 }
 
+ol {
+  text-decoration: none;
+  gap: 1rem;
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "box box"
+    "box box";
+}
+
 footer {
     color: #fff;
     font-size: .875rem;
