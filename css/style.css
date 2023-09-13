@@ -44,7 +44,7 @@ ol {
 
 .banner img {
   grid-area: banner;
-  width: 100%;
+  width: 50%;
 }
 
 .banner div {
