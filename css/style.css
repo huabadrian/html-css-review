@@ -101,8 +101,8 @@ ol {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
-    "box box"
-    "box box";
+    "box1 box2"
+    "box3 box4";
 }
 
 footer {
