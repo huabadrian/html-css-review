@@ -76,6 +76,8 @@ ol {
 }
 
 body {
+    padding-left: 10rem;
+    padding-right: 10rem;
     line-height: 1.5;
     font-family: "Nunito";
     color: #ffffff;
