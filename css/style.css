@@ -98,6 +98,10 @@ h2 {
     font-size: 2rem;
 }
 
+.profile img {
+  border-radius: 50%;
+}
+
 ol {
   text-decoration: none;
   gap: 1rem;
