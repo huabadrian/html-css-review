@@ -1,7 +1,7 @@
 html {
     box-sizing: border-box;
     background-color: #000000;
-    width: 50%;
+    width: 75%;
 }
   
 *, *::before, *::after {
@@ -45,7 +45,6 @@ ol {
 
 .banner img {
   grid-area: banner;
-  width: 50%;
 }
 
 .banner div {
