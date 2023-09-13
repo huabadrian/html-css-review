@@ -98,7 +98,7 @@ ol {
   gap: 1rem;
   list-style-type: none;
   padding: 0;
-  align-self: center;
+  justify-content: center;
   width: 50%;
   display: grid;
   grid-template-columns: 1fr 1fr;
