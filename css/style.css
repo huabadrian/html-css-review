@@ -1,139 +1,84 @@
-html {
-    box-sizing: border-box;
-    background-color: #000000;
-}
-  
-*, *::before, *::after {
-    box-sizing: inherit;
-}
 
-ol {
-    list-style: none;
-}
-
-.nav ol {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-}
-
-.nav a {
-  color: #fff;
-  padding: .5em;
-  border-radius: 1em;
-  text-decoration: none;
-}
-
-.masthead {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.banner h4 {
-  font-size: 8rem;
-}
-
-.banner {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: "banner";
-    color: #fff;
-  }
-  
-
-.banner img {
-  grid-area: banner;
-  width: 100%;
-}
-
-.banner div {
-  grid-area: banner;
-  align-self: center;
-  justify-self: center;
-  padding: 2rem;
-  text-align: center;
-}
-
-.welcome {
-    background-color: #7055A4;
-    margin: auto;
-}
-
-.profile {
-    background-color: #7055A4;
-}
-
-.profile h3 {
-  text-align: center;
-}
-
-.profile li p {
-  text-align: center;
+* {
+  box-sizing: border-box;
 }
 
 body {
-    padding-left: 10rem;
-    padding-right: 10rem;
-    line-height: 1.5;
-    font-family: "Nunito";
-    color: #ffffff;
+  font-family: 'Nunito', sans-serif;
+  line-height: 1.5;
+  color: #000;
+  margin: 0;
 }
 
 .wrapper {
-    max-width: 1280px;
-    margin: 0%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.wrapper p h3 {
-  margin-left: 3rem;
-  margin-right: 3rem;
+/* headings - come back to this next class */
+
+
+#company-name {
+  color: #DEC9E9;
+  font-size: 1.5em;
 }
 
-.profile img {
-  filter: grayscale();
-  text-align: center;
-  display: grid;
-  place-items: center;
+#intro, 
+#fan-fav,
+#team {
+  padding: 4em 0;
 }
 
-span {
-    font-family: "Wix Madefor Display", sans-serif;
-    font-size: 2rem;
+#header {
+  background-color: #000;
 }
 
-h2 {
-    font-family: "Wix Madefor Display", sans-serif;
-    font-size: 2rem;
+#header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.profile img {
-  border-radius: 50%;
-}
-
-ol {
-  text-decoration: none;
-  gap: 1rem;
+nav ul{
+  display: flex;
   list-style-type: none;
-  padding: 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas:
-    "box1 box2"
-    "box3 box4";
 }
 
-footer {
-    color: #fff;
-    font-size: .875rem;
-    text-align: center;
-    padding: 1rem;
-  }
+nav ul li {
+  padding-left: 1.25em;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+  color: #DEC9E9;
+  text-decoration: none;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+  color: #fff;
+}
+
+/*hero banner */
+
+#hero-banner {
+  height: 60vh;
   
-  footer * {
-    margin: 0;
-  }
+  background-color: #7251B5;
   
+  background image: url(../images/ice-cream-cones.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  
+  display: flex; 
+  align-items: center;
+}
+
+#intro {
+  background-color: #7251B5;
+}
+
+#intro p {
+  max-width: 50%;
+}
