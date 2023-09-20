@@ -82,3 +82,13 @@ nav ul li a:focus {
 #intro p {
   max-width: 50%;
 }
+
+#fan-fav {
+  background-color: #000;
+  color: #DEC9E9;
+}
+
+#fan-fav ol {
+  list-style-type: none;
+  padding-left: 0;
+}
