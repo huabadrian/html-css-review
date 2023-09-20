@@ -93,4 +93,10 @@ nav ul li a:focus {
   padding-left: 0;
 
   display: flex;
+  flex-wrap: wrap;
+}
+
+#fan-fav ol li {
+  width: 50%;
+  padding-right: 15%;
 }
