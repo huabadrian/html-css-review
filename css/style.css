@@ -121,4 +121,9 @@ nav ul li a:focus {
 
 .team-grid article {
   background-color: #6647A6;
+  border-radius: 20px;
+  padding: 2em 0;
+  
+  text-align: center;
 }
+
