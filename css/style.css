@@ -63,8 +63,10 @@ nav ul li a:focus {
 
 #hero-banner {
   height: 60vh;
+
   font-size: 5em;
-  
+  font-family: 'Wix Madefor Display', sans-serif;
+
   background-color: #7251B5;
   
   background-image: url(../images/ice-cream-cones.jpg);
