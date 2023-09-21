@@ -137,3 +137,13 @@ nav ul li a:focus {
 .team-grid h3 {
   text-transform: uppercase;
 }
+
+.team-grid article p {
+  margin-top: 0;
+}
+
+footer {
+  background-color: #000;
+  text-align: center;
+  padding: 1em 0;
+}
