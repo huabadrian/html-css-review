@@ -133,3 +133,7 @@ nav ul li a:focus {
   border-radius: 50%;
   filter: grayscale(100%);
 }
+
+.team-grid h3 {
+  text-transform: uppercase;
+}
