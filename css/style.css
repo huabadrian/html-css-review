@@ -131,4 +131,5 @@ nav ul li a:focus {
   width: 80px;
   
   border-radius: 50%;
+  filter: grayscale(100%);
 }
